@@ -446,6 +446,9 @@ footer p u {
     .text2 p {
         margin: -50% 0;
     }
+     .form-control {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 820px) {
@@ -527,9 +530,6 @@ footer p u {
         padding: 40px;
     }
 
-    .form-control {
-        width: 80%;
-    }
 
     footer {
         padding: 15px 0;

@@ -184,6 +184,7 @@ header .right h3._active {
     margin-top: 30px;
     background: linear-gradient(0deg, rgba(36, 57, 73, 1), rgba(81, 127, 164, 1));
     border-radius: 0;
+    border-color: transparent;
     color: #fff;
     font-size: 20px;
     outline: none;
@@ -305,6 +306,7 @@ header .right h3._active {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .quote h4 {
@@ -366,6 +368,7 @@ footer {
     margin: 50px auto 0;
     padding: 30px 50px;
     background: linear-gradient(0deg, #243949 0%, #517fa4 100%);
+    overflow: hidden;
 }
 
 footer h2 {
@@ -385,6 +388,15 @@ footer a {
 
 footer p u {
     padding: 10px;
+}
+
+#design {
+    font-size: 16px;
+    padding: 5px 10px 0 0;
+}
+
+#design:hover {
+    color: #c0c0c0;
 }
 
 .info {
@@ -446,9 +458,11 @@ footer p u {
     .text2 p {
         margin: -50% 0;
     }
-     .form-control {
+
+    .form-control {
         width: 80%;
     }
+
 }
 
 @media screen and (max-width: 820px) {
@@ -460,6 +474,7 @@ footer p u {
     .info {
         margin-left: 50px;
     }
+
     .text2 p {
         margin: -62% 0;
     }
@@ -490,8 +505,9 @@ footer p u {
     .info_about2 {
         order: 0;
     }
+
     .text p,
-        .text2 p {
+    .text2 p {
         margin: 0%;
     }
 }
@@ -516,6 +532,14 @@ footer p u {
         font-size: 22px;
     }
 
+    .btn {
+        width: 270px;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
     p,
     .form h4 {
         font-size: 16px;
@@ -530,7 +554,6 @@ footer p u {
         padding: 40px;
     }
 
-
     footer {
         padding: 15px 0;
     }
@@ -538,6 +561,10 @@ footer p u {
     footer p,
     footer a {
         font-size: 14px;
+    }
+
+    #design {
+        font-size: 12px;
     }
 }
 
@@ -553,6 +580,7 @@ footer p u {
     .btn a {
         font-size: 16px;
     }
+
     .text p {
         font-size: 14px;
     }
